@@ -1,0 +1,413 @@
+[
+  {
+    "id": "career-ds-01",
+    "title": "Data Scientist",
+    "slug": "data-scientist",
+    "family": "Data & AI",
+    "description": "Applies statistical modeling, machine learning, and data analytics to extract actionable business insights from structured and unstructured data.",
+    "average_salary_range": "$95,000 - $145,000",
+    "min_cgpa_normalized": 0.65,
+    "eligible_degrees": ["B.Tech", "B.E.", "B.Sc", "M.Tech", "MCA", "MS"],
+    "preferred_degrees": ["Computer Science", "Data Science", "Information Technology", "Statistics", "Mathematics"],
+    "riasec_profile": {
+      "realistic": 0.35,
+      "investigative": 0.90,
+      "artistic": 0.30,
+      "social": 0.25,
+      "enterprising": 0.50,
+      "conventional": 0.65
+    },
+    "required_skills": [
+      { "skill_name": "python", "required_level": 4, "importance": "core", "weight": 2.0 },
+      { "skill_name": "sql", "required_level": 3, "importance": "core", "weight": 1.5 },
+      { "skill_name": "statistics", "required_level": 3, "importance": "core", "weight": 1.8 },
+      { "skill_name": "machine learning", "required_level": 3, "importance": "core", "weight": 2.0 },
+      { "skill_name": "pandas", "required_level": 3, "importance": "core", "weight": 1.2 },
+      { "skill_name": "data visualization", "required_level": 3, "importance": "elective", "weight": 1.0 },
+      { "skill_name": "deep learning", "required_level": 2, "importance": "elective", "weight": 1.2 },
+      { "skill_name": "git", "required_level": 2, "importance": "elective", "weight": 0.8 }
+    ],
+    "prerequisites": {
+      "pandas": ["python"],
+      "statistics": ["mathematics"],
+      "machine learning": ["python", "statistics"],
+      "deep learning": ["machine learning", "python"]
+    },
+    "capstone_project_idea": "Build an end-to-end customer churn prediction pipeline with FastAPI inference API and interactive dashboard.",
+    "learning_resources": [
+      {
+        "title": "Applied Machine Learning with Scikit-Learn and PyTorch",
+        "provider": "Coursera",
+        "url": "https://coursera.org/learn/applied-machine-learning",
+        "estimated_hours": 35,
+        "difficulty_level": "Intermediate",
+        "skill_name": "machine learning"
+      },
+      {
+        "title": "Practical Statistics for Data Scientists",
+        "provider": "O'Reilly",
+        "url": "https://oreilly.com/library/view/practical-statistics-for-data-scientists",
+        "estimated_hours": 25,
+        "difficulty_level": "Intermediate",
+        "skill_name": "statistics"
+      },
+      {
+        "title": "Deep Learning Specialization",
+        "provider": "DeepLearning.AI",
+        "url": "https://deeplearning.ai/deep-learning-specialization",
+        "estimated_hours": 40,
+        "difficulty_level": "Advanced",
+        "skill_name": "deep learning"
+      },
+      {
+        "title": "Data Analysis with Pandas and Python",
+        "provider": "Udemy",
+        "url": "https://udemy.com/course/data-analysis-with-pandas",
+        "estimated_hours": 20,
+        "difficulty_level": "Intermediate",
+        "skill_name": "pandas"
+      }
+    ]
+  },
+  {
+    "id": "career-mle-02",
+    "title": "Machine Learning Engineer",
+    "slug": "machine-learning-engineer",
+    "family": "Data & AI",
+    "description": "Designs, trains, deploys, and monitors scalable machine learning models in production environments using MLOps best practices.",
+    "average_salary_range": "$110,000 - $165,000",
+    "min_cgpa_normalized": 0.65,
+    "eligible_degrees": ["B.Tech", "B.E.", "M.Tech", "MS", "MCA"],
+    "preferred_degrees": ["Computer Science", "Artificial Intelligence", "Data Science"],
+    "riasec_profile": {
+      "realistic": 0.60,
+      "investigative": 0.90,
+      "artistic": 0.20,
+      "social": 0.20,
+      "enterprising": 0.40,
+      "conventional": 0.55
+    },
+    "required_skills": [
+      { "skill_name": "python", "required_level": 4, "importance": "core", "weight": 2.0 },
+      { "skill_name": "machine learning", "required_level": 4, "importance": "core", "weight": 2.0 },
+      { "skill_name": "docker", "required_level": 3, "importance": "core", "weight": 1.5 },
+      { "skill_name": "sql", "required_level": 3, "importance": "core", "weight": 1.2 },
+      { "skill_name": "deep learning", "required_level": 3, "importance": "core", "weight": 1.8 },
+      { "skill_name": "mlops", "required_level": 2, "importance": "elective", "weight": 1.5 },
+      { "skill_name": "aws", "required_level": 2, "importance": "elective", "weight": 1.2 },
+      { "skill_name": "git", "required_level": 3, "importance": "elective", "weight": 1.0 }
+    ],
+    "prerequisites": {
+      "machine learning": ["python"],
+      "deep learning": ["machine learning"],
+      "docker": ["linux"],
+      "mlops": ["docker", "machine learning"]
+    },
+    "capstone_project_idea": "Deploy a containerized real-time computer vision or NLP model on AWS ECS with automated retraining pipeline.",
+    "learning_resources": [
+      {
+        "title": "Production Machine Learning Systems (MLOps)",
+        "provider": "DeepLearning.AI",
+        "url": "https://deeplearning.ai/mlops-specialization",
+        "estimated_hours": 30,
+        "difficulty_level": "Advanced",
+        "skill_name": "mlops"
+      },
+      {
+        "title": "Docker and Kubernetes: The Complete Guide",
+        "provider": "Udemy",
+        "url": "https://udemy.com/course/docker-kubernetes",
+        "estimated_hours": 22,
+        "difficulty_level": "Intermediate",
+        "skill_name": "docker"
+      },
+      {
+        "title": "AWS Certified Machine Learning - Specialty",
+        "provider": "A Cloud Guru",
+        "url": "https://acloudguru.com/course/aws-certified-machine-learning-specialty",
+        "estimated_hours": 35,
+        "difficulty_level": "Advanced",
+        "skill_name": "aws"
+      }
+    ]
+  },
+  {
+    "id": "career-be-03",
+    "title": "Backend Software Engineer",
+    "slug": "backend-software-engineer",
+    "family": "Software Engineering",
+    "description": "Architects, develops, and maintains server-side web applications, robust APIs, database layers, and distributed microservices.",
+    "average_salary_range": "$90,000 - $140,000",
+    "min_cgpa_normalized": 0.60,
+    "eligible_degrees": ["B.Tech", "B.E.", "B.Sc", "MCA", "M.Tech", "MS"],
+    "preferred_degrees": ["Computer Science", "Information Science", "Software Engineering"],
+    "riasec_profile": {
+      "realistic": 0.65,
+      "investigative": 0.80,
+      "artistic": 0.25,
+      "social": 0.30,
+      "enterprising": 0.35,
+      "conventional": 0.70
+    },
+    "required_skills": [
+      { "skill_name": "python", "required_level": 4, "importance": "core", "weight": 2.0 },
+      { "skill_name": "sql", "required_level": 3, "importance": "core", "weight": 1.8 },
+      { "skill_name": "fastapi", "required_level": 3, "importance": "core", "weight": 1.5 },
+      { "skill_name": "postgresql", "required_level": 3, "importance": "core", "weight": 1.5 },
+      { "skill_name": "git", "required_level": 3, "importance": "core", "weight": 1.0 },
+      { "skill_name": "docker", "required_level": 2, "importance": "elective", "weight": 1.2 },
+      { "skill_name": "redis", "required_level": 2, "importance": "elective", "weight": 1.0 },
+      { "skill_name": "system design", "required_level": 2, "importance": "elective", "weight": 1.5 }
+    ],
+    "prerequisites": {
+      "fastapi": ["python"],
+      "postgresql": ["sql"],
+      "docker": ["linux"],
+      "redis": ["backend basics"]
+    },
+    "capstone_project_idea": "Build a scalable asynchronous e-commerce checkout service with Redis caching, PostgreSQL transactions, and JWT auth.",
+    "learning_resources": [
+      {
+        "title": "High-Performance Python Web APIs with FastAPI",
+        "provider": "FastAPI Official Tutorial",
+        "url": "https://fastapi.tiangolo.com/tutorial",
+        "estimated_hours": 15,
+        "difficulty_level": "Intermediate",
+        "skill_name": "fastapi"
+      },
+      {
+        "title": "PostgreSQL High Performance and Optimization",
+        "provider": "Pluralsight",
+        "url": "https://pluralsight.com/courses/postgresql-high-performance",
+        "estimated_hours": 20,
+        "difficulty_level": "Intermediate",
+        "skill_name": "postgresql"
+      },
+      {
+        "title": "System Design for Software Engineers",
+        "provider": "Educative",
+        "url": "https://educative.io/courses/grokking-system-design-interview",
+        "estimated_hours": 30,
+        "difficulty_level": "Advanced",
+        "skill_name": "system design"
+      }
+    ]
+  },
+  {
+    "id": "career-cloud-04",
+    "title": "Cloud & DevOps Engineer",
+    "slug": "cloud-devops-engineer",
+    "family": "Cloud & Infrastructure",
+    "description": "Automates deployment pipelines, provisions infrastructure as code, and manages cloud reliability, security, and scalability.",
+    "average_salary_range": "$100,000 - $155,000",
+    "min_cgpa_normalized": 0.60,
+    "eligible_degrees": ["B.Tech", "B.E.", "B.Sc", "MCA", "M.Tech"],
+    "preferred_degrees": ["Computer Science", "Information Technology", "Cloud Computing"],
+    "riasec_profile": {
+      "realistic": 0.75,
+      "investigative": 0.75,
+      "artistic": 0.15,
+      "social": 0.25,
+      "enterprising": 0.45,
+      "conventional": 0.75
+    },
+    "required_skills": [
+      { "skill_name": "linux", "required_level": 4, "importance": "core", "weight": 2.0 },
+      { "skill_name": "docker", "required_level": 4, "importance": "core", "weight": 2.0 },
+      { "skill_name": "aws", "required_level": 3, "importance": "core", "weight": 1.8 },
+      { "skill_name": "git", "required_level": 3, "importance": "core", "weight": 1.2 },
+      { "skill_name": "kubernetes", "required_level": 3, "importance": "core", "weight": 1.8 },
+      { "skill_name": "terraform", "required_level": 2, "importance": "elective", "weight": 1.5 },
+      { "skill_name": "ci/cd", "required_level": 3, "importance": "elective", "weight": 1.5 },
+      { "skill_name": "python", "required_level": 2, "importance": "elective", "weight": 1.0 }
+    ],
+    "prerequisites": {
+      "docker": ["linux"],
+      "kubernetes": ["docker"],
+      "terraform": ["aws", "cloud basics"],
+      "ci/cd": ["git", "docker"]
+    },
+    "capstone_project_idea": "Provision a multi-region VPC with Terraform, deploy Kubernetes cluster with GitOps ArgoCD and automated CI/CD pipeline.",
+    "learning_resources": [
+      {
+        "title": "Linux Foundation System Administration",
+        "provider": "edX",
+        "url": "https://edx.org/course/linux-sysadmin",
+        "estimated_hours": 25,
+        "difficulty_level": "Intermediate",
+        "skill_name": "linux"
+      },
+      {
+        "title": "Certified Kubernetes Administrator (CKA)",
+        "provider": "KodeKloud",
+        "url": "https://kodekloud.com/courses/certified-kubernetes-administrator",
+        "estimated_hours": 40,
+        "difficulty_level": "Advanced",
+        "skill_name": "kubernetes"
+      },
+      {
+        "title": "Terraform for Infrastructure Automation",
+        "provider": "HashiCorp Learn",
+        "url": "https://developer.hashicorp.com/terraform/tutorials",
+        "estimated_hours": 18,
+        "difficulty_level": "Intermediate",
+        "skill_name": "terraform"
+      }
+    ]
+  },
+  {
+    "id": "career-fs-05",
+    "title": "Full Stack Web Developer",
+    "slug": "full-stack-web-developer",
+    "family": "Software Engineering",
+    "description": "Builds both client-facing user interfaces and server-side logic, managing end-to-end web features from database to browser.",
+    "average_salary_range": "$85,000 - $135,000",
+    "min_cgpa_normalized": 0.55,
+    "eligible_degrees": ["B.Tech", "B.E.", "B.Sc", "BCA", "MCA"],
+    "preferred_degrees": ["Computer Science", "Information Technology", "Web Development"],
+    "riasec_profile": {
+      "realistic": 0.55,
+      "investigative": 0.70,
+      "artistic": 0.60,
+      "social": 0.40,
+      "enterprising": 0.45,
+      "conventional": 0.60
+    },
+    "required_skills": [
+      { "skill_name": "javascript", "required_level": 4, "importance": "core", "weight": 2.0 },
+      { "skill_name": "react", "required_level": 3, "importance": "core", "weight": 1.8 },
+      { "skill_name": "python", "required_level": 3, "importance": "core", "weight": 1.5 },
+      { "skill_name": "sql", "required_level": 3, "importance": "core", "weight": 1.2 },
+      { "skill_name": "html/css", "required_level": 4, "importance": "core", "weight": 1.2 },
+      { "skill_name": "git", "required_level": 3, "importance": "core", "weight": 1.0 },
+      { "skill_name": "typescript", "required_level": 3, "importance": "elective", "weight": 1.4 },
+      { "skill_name": "docker", "required_level": 2, "importance": "elective", "weight": 1.0 }
+    ],
+    "prerequisites": {
+      "react": ["javascript", "html/css"],
+      "typescript": ["javascript"],
+      "full stack": ["python", "react"]
+    },
+    "capstone_project_idea": "Develop a full-stack project collaboration platform with React frontend, FastAPI backend, and real-time notifications.",
+    "learning_resources": [
+      {
+        "title": "Full Stack Open (React, Redux, Node.js, TypeScript)",
+        "provider": "University of Helsinki",
+        "url": "https://fullstackopen.com/en",
+        "estimated_hours": 60,
+        "difficulty_level": "Intermediate",
+        "skill_name": "react"
+      },
+      {
+        "title": "Modern JavaScript from the Beginning",
+        "provider": "Udemy",
+        "url": "https://udemy.com/course/modern-javascript-from-the-beginning",
+        "estimated_hours": 25,
+        "difficulty_level": "Beginner",
+        "skill_name": "javascript"
+      }
+    ]
+  },
+  {
+    "id": "career-sec-06",
+    "title": "Cybersecurity Analyst",
+    "slug": "cybersecurity-analyst",
+    "family": "Security & Defense",
+    "description": "Protects organizational computer networks and digital assets by detecting threats, analyzing vulnerabilities, and implementing security controls.",
+    "average_salary_range": "$90,000 - $140,000",
+    "min_cgpa_normalized": 0.60,
+    "eligible_degrees": ["B.Tech", "B.E.", "B.Sc", "MCA", "BCA"],
+    "preferred_degrees": ["Cybersecurity", "Computer Science", "Information Technology", "Computer Networks"],
+    "riasec_profile": {
+      "realistic": 0.65,
+      "investigative": 0.85,
+      "artistic": 0.15,
+      "social": 0.30,
+      "enterprising": 0.40,
+      "conventional": 0.80
+    },
+    "required_skills": [
+      { "skill_name": "computer networks", "required_level": 4, "importance": "core", "weight": 2.0 },
+      { "skill_name": "linux", "required_level": 3, "importance": "core", "weight": 1.8 },
+      { "skill_name": "security fundamentals", "required_level": 4, "importance": "core", "weight": 2.0 },
+      { "skill_name": "python", "required_level": 2, "importance": "elective", "weight": 1.2 },
+      { "skill_name": "vulnerability assessment", "required_level": 3, "importance": "core", "weight": 1.8 },
+      { "skill_name": "cryptography", "required_level": 2, "importance": "elective", "weight": 1.0 },
+      { "skill_name": "wireshark", "required_level": 3, "importance": "elective", "weight": 1.0 }
+    ],
+    "prerequisites": {
+      "security fundamentals": ["computer networks"],
+      "vulnerability assessment": ["security fundamentals", "linux"]
+    },
+    "capstone_project_idea": "Configure a Security Operations Center (SOC) lab with Suricata IDS, network traffic analysis, and automated incident triage.",
+    "learning_resources": [
+      {
+        "title": "CompTIA Security+ Certification Prep",
+        "provider": "Coursera",
+        "url": "https://coursera.org/learn/comptia-security-plus",
+        "estimated_hours": 30,
+        "difficulty_level": "Intermediate",
+        "skill_name": "security fundamentals"
+      },
+      {
+        "title": "Computer Networking: A Top-Down Approach",
+        "provider": "Stanford Online",
+        "url": "https://online.stanford.edu/courses/networking",
+        "estimated_hours": 35,
+        "difficulty_level": "Intermediate",
+        "skill_name": "computer networks"
+      }
+    ]
+  },
+  {
+    "id": "career-da-07",
+    "title": "Data Analyst",
+    "slug": "data-analyst",
+    "family": "Data & AI",
+    "description": "Collects, cleans, and analyzes datasets to answer specific business questions, presenting findings through reports and dashboards.",
+    "average_salary_range": "$70,000 - $105,000",
+    "min_cgpa_normalized": 0.55,
+    "eligible_degrees": ["B.Tech", "B.E.", "B.Sc", "B.Com", "BCA", "BBA"],
+    "preferred_degrees": ["Data Science", "Statistics", "Computer Science", "Business Analytics", "Economics"],
+    "riasec_profile": {
+      "realistic": 0.30,
+      "investigative": 0.80,
+      "artistic": 0.35,
+      "social": 0.35,
+      "enterprising": 0.55,
+      "conventional": 0.80
+    },
+    "required_skills": [
+      { "skill_name": "sql", "required_level": 4, "importance": "core", "weight": 2.0 },
+      { "skill_name": "excel", "required_level": 4, "importance": "core", "weight": 1.5 },
+      { "skill_name": "python", "required_level": 3, "importance": "core", "weight": 1.6 },
+      { "skill_name": "data visualization", "required_level": 4, "importance": "core", "weight": 1.8 },
+      { "skill_name": "statistics", "required_level": 3, "importance": "core", "weight": 1.4 },
+      { "skill_name": "tableau/powerbi", "required_level": 3, "importance": "elective", "weight": 1.5 },
+      { "skill_name": "pandas", "required_level": 3, "importance": "elective", "weight": 1.2 }
+    ],
+    "prerequisites": {
+      "data visualization": ["excel", "sql"],
+      "pandas": ["python"]
+    },
+    "capstone_project_idea": "Analyze public health or financial transaction dataset and create an executive dashboard in PowerBI/Streamlit with trend forecasting.",
+    "learning_resources": [
+      {
+        "title": "Google Data Analytics Professional Certificate",
+        "provider": "Coursera",
+        "url": "https://coursera.org/professional-certificates/google-data-analytics",
+        "estimated_hours": 50,
+        "difficulty_level": "Beginner",
+        "skill_name": "data visualization"
+      },
+      {
+        "title": "Advanced SQL for Data Scientists and Analysts",
+        "provider": "Udemy",
+        "url": "https://udemy.com/course/advanced-sql",
+        "estimated_hours": 18,
+        "difficulty_level": "Intermediate",
+        "skill_name": "sql"
+      }
+    ]
+  }
+]

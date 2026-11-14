@@ -1,0 +1,18 @@
+{
+  "profile_name": "default_v1.1",
+  "version": "1.1",
+  "description": "Standard Technical Specification v1.1 scoring profile",
+  "weights": {
+    "skill_weight": 0.40,
+    "riasec_weight": 0.25,
+    "academic_weight": 0.20,
+    "goal_weight": 0.15,
+    "core_skill_ratio": 0.75,
+    "elective_skill_ratio": 0.25
+  },
+  "readiness_thresholds": {
+    "high_readiness": 80.0,
+    "moderate_readiness": 65.0,
+    "developing": 50.0
+  }
+}
